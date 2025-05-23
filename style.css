@@ -1,0 +1,23 @@
+/* css/style.css */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1e1e2f;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #3498db;
+  }
+  
+  footer {
+    color: #aaa;
+  }
+  
+
+
+.img-fluid rounded bg-white p-2{
+  width: 50px;
+}
+

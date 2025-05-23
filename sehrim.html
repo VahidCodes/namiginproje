@@ -1,0 +1,122 @@
+<!-- sehrim.html -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Şehrim - Bakü</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body class="bg-dark text-light">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Namik Gurbanzada</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Hakkımda</a></li>
+          <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+          <li class="nav-item"><a class="nav-link active" href="sehrim.html">Şehrim</a></li>
+          <li class="nav-item"><a class="nav-link" href="takim.html">Takımımız</a></li>
+          <li class="nav-item"><a class="nav-link" href="ilgi-alanlarim.html">İlgi Alanlarım</a></li>
+          <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">Giriş</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <style>
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  .swiper {
+  width: 70vw;
+  height: auto;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+
+</style>
+
+<!-- SLIDER -->
+<div class="swiper mySwiper mb-5">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="images/flametowers.jpg" alt="Foto 1"></div>
+    <div class="swiper-slide"><img src="images/bulvar.png" alt="Foto 2"></div>
+    <div class="swiper-slide"><img src="images/iceriseher2.png" alt="Foto 3"></div>
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    rewind: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+
+  
+  
+
+  <main class="container my-5">
+    <h1 class="text-center mb-4">Bakü - Azerbaycan'ın Kalbi</h1>
+
+    <section id="iceri-seher" class="mb-5">
+      <h2>İçəri Şəhər</h2>
+      <p>UNESCO tarafından koruma altına alınmış tarihi bir bölge olan İçəri Şəhər, Bakü'nün en eski yerleşim yeridir. Dar sokaklar, taş evler ve tarihi yapılarla doludur.</p>
+    </section>
+
+    <section id="alev-kuleleri" class="mb-5">
+      <h2>Alev Kuleleri</h2>
+      <p>Bakü’nün modern yüzünü temsil eden üçlü gökdelenler, şehrin silüetini süsler. Gece ışık gösterileriyle büyüleyici bir görünüm sunar.</p>
+    </section>
+
+    <section id="bakü-bulvari" class="mb-5">
+      <h2>Bakü Bulvarı</h2>
+      <p>Hazar Denizi kıyısında uzanan yürüyüş yolu, parklar, kafeler ve eğlence merkezleriyle şehir halkının ve turistlerin gözdesidir.</p>
+    </section>
+
+    <section id="haydar-aliyev" class="mb-5">
+      <h2>Haydar Aliyev Kültür Merkezi</h2>
+      <p>Ünlü mimar Zaha Hadid tarafından tasarlanan bu yapı, Azerbaycan kültürünü ve sanatını sergileyen muazzam bir komplekstir.</p>
+    </section>
+  </main>
+
+  <footer class="text-center p-3 bg-black">
+    © 2025 Namik Gurbanzade
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
